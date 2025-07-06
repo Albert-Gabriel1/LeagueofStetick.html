@@ -32,7 +32,7 @@
         }
         a {
             color: #2a4bd7;
-            text-decoration: none;
+            text-decoration: underline;
         }
         iframe {
             display: block;
