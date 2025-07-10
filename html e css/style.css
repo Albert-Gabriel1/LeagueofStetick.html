@@ -1,48 +1,53 @@
-        body {
-            background-color: #1E2A44;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            font-size: 16px;}
-            main {
-                width: 500px;
-                margin: auto;
-                padding: 10px;
-                background-color: #4b6aad21;
-            }
-
-        img {
-            display: block;
+    body {
+        background-color: #1E2A44;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 16px;}
+        main {
+            width: 500px;
             margin: auto;
-            width: 500px;
-        }
-        li {
-            text-align: left;
-            font-size: medium;
-            color: #EDEDED;
-        }
-        h1 {
-            color: #C89B3C;
+            padding: 10px;
+            background-color: #4b6aad21;
             text-align: center;
+            font-family: "Orbitron", sans-serif;
+            font-weight: 100;
+            font-optical-sizing: auto;
+            box-shadow: #1d1b1ba4 4px 5px 5px 6px;
         }
-        h2 {
-            color: #C89B3C;
-            text-align: center;
-        }
-        p {
-            color: #EDEDED;
-            text-align: left;
-        }
-        h3 {
-            color: #EDEDED;
-        }
-        h4 {
-            color: #EDEDED;
-        }
-        a {
-            color: #2a4bd7;
-            text-decoration: underline;
-        }
-        iframe {
-            display: block;
-            margin: 0 auto;
-            width: 500px;
-        }
+
+    img {
+        display: block;
+        margin: auto;
+        width: 500px;
+    }
+    li {
+        text-align: left;
+        font-size: medium;
+        color: #edededce;
+    }
+    h1 {
+        color: #C89B3C;
+        text-align: center;
+    }
+    h2 {
+        color: #C89B3C;
+        box-shadow: #000000ea 1px 1px 2px 2px;
+    }
+    p {
+        color: #EDEDED;
+    }
+    h3 {
+        color: #EDEDED;
+    }
+    h4 {
+        color: #EDEDED;
+    }
+    a {
+        color: #2a4bd7;
+        text-decoration: underline;
+    }
+    iframe {
+        display: block;
+        margin: 0 auto;
+        width: 500px;
+        box-shadow: #dbab4485 5px 5px 5px 6px;
+    }
