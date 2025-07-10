@@ -12,8 +12,8 @@
             font-weight: 100;
             font-optical-sizing: auto;
             box-shadow: #1d1b1ba4 4px 5px 5px 6px;
+            border-radius: 15px;
         }
-
     img {
         display: block;
         margin: auto;
