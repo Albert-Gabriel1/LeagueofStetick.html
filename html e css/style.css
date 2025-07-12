@@ -12,7 +12,7 @@
             font-weight: 100;
             font-optical-sizing: auto;
             box-shadow: #1d1b1ba4 4px 5px 5px 6px;
-            border-radius: 15px;
+            border-radius: 15px black;
         }
     img {
         display: block;
@@ -40,6 +40,12 @@
     }
     h4 {
         color: #EDEDED;
+    }
+    a:hover{
+        color: rgb(0, 238, 255);
+    }
+    a:active{
+        color: rgba(177, 14, 14, 0.589);
     }
     a {
         color: #2a4bd7;
