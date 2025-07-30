@@ -1,25 +1,32 @@
     body {
         background-color: #1E2A44;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 16px;}
+    min-width: 100vh;}
         main {
-            width: auto;
-            margin: 100px;
+            margin: auto;
             padding: 10px;
             background-color: #4b6aad65;
             font-family: "Orbitron", sans-serif;
             font-weight: 100;
             font-optical-sizing: auto;
-            box-shadow: #c89c3c9a 4px 5px 5px 6px;
             border-color: black;
             border-style: solid;
             border-width: 5px;
             border-radius: 35px;
+            font-size: 1.5vw;
+            line-height: 3vw;
+            width: 70%;
         }
-    img {
+        header{
+            border: black solid 5px;
+            padding: 10px;
+            background-color: #283b64;
+        }
+    img{
         display: block;
         margin: auto;
-        width: 500px;
+        height: 100%;
+        width: 100%;
         border-style: solid;
         border-color: rgb(255, 255, 255);
         border-width: 3px;
@@ -46,7 +53,10 @@
         color: #EDEDED;
     }
     a:hover{
-        color: rgb(0, 238, 255);
+        background-color: #ff00004d;
+        transition-duration: 0.5s;
+        color: rgba(0, 238, 255, 0.76);
+        text-decoration: underline;
     }
     a:active{
         color: rgba(177, 14, 14, 0.589);
@@ -55,17 +65,16 @@
         color: #2a4bd7;
         text-decoration: underline;
     }
-    iframe {
+    iframe{
         display: block;
-        margin: 0 auto;
-        width: 500px;
-        box-shadow: #dbab4485 5px 5px 5px 6px;
+        margin: auto;
+        width: 100%;
         border-color: rgb(255, 255, 255);
         border-width: 3px;
         border-style: double;
     }
     nav > a{
-        margin-right: 210px;
+        margin-right: 190px;
         text-decoration: none;
     }
     nav > a:hover{
@@ -85,4 +94,23 @@
     }
     footer{
         text-align: center;
+    }
+    #img1{
+        height: 500px;
+        width: 100%;
+        background:url(imagens/lol.jpg)center center no-repeat fixed;
+        background-size: cover;
+    }
+    a{
+        text-decoration: none;
+    }
+    header>h1{
+        font-variant: small-caps;
+        font-size: 3vw;
+    }
+    #img2{
+        background: url(imagens/campeõs.jgp.jpg) center center no-repeat fixed;
+        background-size: cover;
+        height: 400px;
+        width: 100%;
     }
