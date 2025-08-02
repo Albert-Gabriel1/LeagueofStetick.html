@@ -74,10 +74,11 @@
         border-style: double;
     }
     nav > a{
+        text-decoration: none;
         flex-wrap: wrap;
         gap: 10px;
+        padding: 5px 10px;
         justify-content: center;
-        text-decoration: none;
     }
     nav > a:hover{
         text-decoration: underline;
@@ -87,7 +88,7 @@
         background-color:#0e1011a8;
         border: 1px solid rgba(255, 255, 255, 0.527);
         margin: auto;
-        padding: 5px;
+        padding: 5px 10px;
     }
     article{
         border: 3px solid black;
