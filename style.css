@@ -1,7 +1,6 @@
     body {
         background-color: #1E2A44;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    min-width: 100vh;}
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
         main {
             margin: auto;
             padding: 10px;
@@ -15,7 +14,8 @@
             border-radius: 35px;
             font-size: 1.5vw;
             line-height: 3vw;
-            width: 70%;
+            width: 80%;
+            max-width: 900px;
         }
         header{
             border: black solid 5px;
@@ -74,7 +74,7 @@
         border-style: double;
     }
     nav > a{
-        margin-right: 190px;
+        flex-wrap: wrap;
         text-decoration: none;
     }
     nav > a:hover{
@@ -96,7 +96,7 @@
         text-align: center;
     }
     #img1{
-        height: 500px;
+        height: 400px;
         width: 100%;
         background:url(imagens/lol.jpg)center center no-repeat fixed;
         background-size: cover;
