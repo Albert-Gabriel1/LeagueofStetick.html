@@ -8,9 +8,7 @@
             font-family: "Orbitron", sans-serif;
             font-weight: 100;
             font-optical-sizing: auto;
-            border-color: black;
-            border-style: solid;
-            border-width: 5px;
+            border: 1px solid black;
             border-radius: 35px;
             font-size: 1.5vw;
             line-height: 3vw;
@@ -37,25 +35,25 @@
         color: #edededce;
     }
     h1 {
-        color: #C89B3C;
+        color: #C8AA6E;
         text-align: center;
     }
     h2 {
         color: #C89B3C;
     }
     p {
-        color: #EDEDED;
+        color: #F0E6D2;
     }
     h3 {
-        color: #EDEDED;
+        color: #A09B8C;
     }
     h4 {
-        color: #EDEDED;
+        color: #A09B8C;
     }
     a:hover{
-        background-color: #ff00004d;
-        transition-duration: 0.5s;
-        color: rgba(0, 238, 255, 0.76);
+        background-color: #C8AA6E;
+        transition-duration: 0.7s;
+        color: #F0E6D2;
         text-decoration: underline;
     }
     a:active{
@@ -82,7 +80,7 @@
     }
     nav > a:hover{
         text-decoration: underline;
-        color: aquamarine;
+        color: #F0E6D2;
     }
     nav{
         background-color:#0e1011a8;
