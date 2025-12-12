@@ -1,117 +1,137 @@
-    body {
-        background-color: #1E2A44;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
-        main {
-            margin: auto;
-            padding: 10px;
-            background-color: #4b6aad65;
-            font-family: "Orbitron", sans-serif;
-            font-weight: 100;
-            font-optical-sizing: auto;
-            border: 1px solid black;
-            border-radius: 35px;
-            font-size: 1.5vw;
-            line-height: 3vw;
-            width: 80%;
-            max-width: 900px;
-        }
-        header{
-            border: black solid 5px;
-            padding: 10px;
-            background-color: #283b64;
-        }
-    img{
-        display: block;
-        margin: auto;
-        height: 100%;
-        width: 100%;
-        border-style: solid;
-        border-color: rgb(255, 255, 255);
-        border-width: 3px;
-    }
-    li {
-        text-align: left;
-        font-size: medium;
-        color: #edededce;
-    }
-    h1 {
-        color: #C8AA6E;
-        text-align: center;
-    }
-    h2 {
-        color: #C89B3C;
-    }
-    p {
-        color: #F0E6D2;
-    }
-    h3 {
-        color: #A09B8C;
-    }
-    h4 {
-        color: #A09B8C;
-    }
-    a:hover{
-        background-color: #C8AA6E;
-        transition-duration: 0.7s;
-        color: #F0E6D2;
-        text-decoration: underline;
-    }
-    a:active{
-        color: rgba(177, 14, 14, 0.589);
-    }
-    a {
-        color: #2a4bd7;
-        text-decoration: underline;
-    }
-    iframe{
-        display: block;
-        margin: auto;
-        width: 100%;
-        border-color: rgb(255, 255, 255);
-        border-width: 3px;
-        border-style: double;
-    }
-    nav > a{
-        text-decoration: none;
-        flex-wrap: wrap;
-        gap: 10px;
-        padding: 5px 10px;
-        justify-content: center;
-    }
-    nav > a:hover{
-        text-decoration: underline;
-        color: #F0E6D2;
-    }
-    nav{
-        background-color:#0e1011a8;
-        border: 1px solid rgba(255, 255, 255, 0.527);
-        margin: auto;
-        padding: 5px 10px;
-    }
-    article{
-        border: 3px solid black;
-        margin: 5px;
-        padding: 9px;
-    }
-    footer{
-        text-align: center;
-    }
-    #img1{
-        height: 400px;
-        width: 100%;
-        background:url(imagens/lol.jpg)center center no-repeat fixed;
-        background-size: cover;
-    }
-    a{
-        text-decoration: none;
-    }
-    header>h1{
-        font-variant: small-caps;
-        font-size: 3vw;
-    }
-    #img2{
-        background: url(imagens/campeõs.jgp.jpg) center center no-repeat fixed;
-        background-size: cover;
-        height: 400px;
-        width: 100%;
-    }
+body {
+    background-color: #1E2A44;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+main {
+margin: auto;
+padding: 10px;
+background-color: #4b6aad65;
+font-family: "Orbitron", sans-serif;
+font-weight: 100;
+font-optical-sizing: auto;
+border: 1px solid black;
+border-radius: 35px;
+font-size: 1.5vw;
+line-height: 3vw;
+width: 80%;
+max-width: 900px;
+}
+header{
+border: black solid 5px;
+padding: 10px;
+background-color: #283b64;
+}
+img{
+display: block;
+margin: auto;
+height: 100%;
+width: 100%;
+border-style: solid;
+border-color: rgb(255, 255, 255);
+border-width: 3px;
+}
+li {
+text-align: left;
+font-size: medium;
+color: #edededce;
+}
+h1 {
+color: #C8AA6E;
+text-align: center;
+}
+h2 {
+color: #C89B3C;
+}
+p {
+color: #F0E6D2;
+}
+h3 {
+color: #A09B8C;
+}
+h4 {
+color: #A09B8C;
+}
+a:hover{
+background-color: #C8AA6E;
+transition-duration: 0.7s;
+color: #F0E6D2;
+text-decoration: underline;
+}
+a:active{
+color: rgba(177, 14, 14, 0.589);
+}
+a {
+color: #2a4bd7;
+text-decoration: underline;
+}
+iframe{
+display: block;
+margin: auto;
+width: 100%;
+border-color: rgb(255, 255, 255);
+border-width: 3px;
+border-style: double;
+}
+nav > a{
+text-decoration: none;
+flex-wrap: wrap;
+gap: 10px;
+padding: 5px 10px;
+justify-content: center;
+}
+nav > a:hover{
+text-decoration: underline;
+color: #F0E6D2;
+}
+nav{
+background-color:#0e1011a8;
+border: 1px solid rgba(255, 255, 255, 0.527);
+margin: auto;
+padding: 5px 10px;
+}
+article{
+border: 3px solid black;
+margin: 5px;
+padding: 9px;
+}
+footer{
+text-align: center;
+}
+#img1{
+height: 400px;
+width: 100%;
+background:url(imagens/lol.jpg)center center no-repeat fixed;
+background-size: cover;
+}
+a{
+text-decoration: none;
+}
+header>h1{
+font-variant: small-caps;
+font-size: 3vw;
+}
+#img2{
+background: url(imagens/campeõs.jgp.jpg) center center no-repeat fixed;
+background-size: cover;
+height: 400px;
+width: 100%;
+}
+#pai{
+display: flex;
+flex-flow: row wrap;
+justify-content: space-between;
+
+}
+.filho{
+    display: flex;
+    flex: 1 0 100px;
+    border: 1px solid black;
+}
+#assunto1{
+    background-color: #560a587a;
+}
+#assunto2{
+    background-color: #091225;
+}
+#assunto4{
+    background-color: #4f8af8af;
+}
